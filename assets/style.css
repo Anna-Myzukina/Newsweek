@@ -46,3 +46,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*=====END reset styles======*/
+.logo{
+	background: red;
+	min-height: 50px;
+}
+menu{
+	background: grey;
+}
