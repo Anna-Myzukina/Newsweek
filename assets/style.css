@@ -47,10 +47,36 @@ table {
 	border-spacing: 0;
 }
 /*=====END reset styles======*/
-.logo{
+body{
+	padding-bottom: 400px;
+}
+
+
+header{
 	background: red;
+}
+.log a{
+	font-size: 70px;
+	color: black;
+}
+li{
+	border-right: 1px solid grey;
+	padding: 0 14px;
+	font-size: 16px;
+	color: black;
+}
+
+/*====START block with four columns====*/
+
+
+/*====END block with four columns====*/
+
+
+/*====START with img gallery three columns*/
+.img-newsweek img{
+	width: 50px;
 	min-height: 50px;
+	background: red;
 }
-menu{
-	background: grey;
-}
+
+/*====END with img gallery three columns*/
