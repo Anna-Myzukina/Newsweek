@@ -53,17 +53,19 @@
     <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
 </head>
 
-<body>
+<body style="height:1500px">
     <header class="header">
-        <nav class="stk navbar navbar-expand-sm navbar-dark bg-red d-flex justify-content-between">
-            <time datetime="2019-07-31"> Wed, Jul 31, 2019</time>
-            <a class="logo navbar-brand" href="#">Newsweek</a>
+        <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-red d-flex justify-content-between">
+            <time datetime="2019-07-31 text-white"> Wed, Jul 31, 2019</time>
+            <h1 class="display-1 text-white">
+            Newsweek
+        </h1>
             <div>
-                <a href="#" class="nw-btn">Sign in</a>
-                <a href="#" class="nw-btn-white">Subscribe</a>
+                <a href="#" class="nw-btn text-white p-2 text-uppercase">Sign in</a>
+                <a href="#" class="nw-btn-white p-2 text-danger text-uppercase bg-white">Subscribe ></a>
             </div>
         </nav>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light bottom-nav mb-10">
+        <nav class="border-bottom navbar navbar-expand-sm navbar-light bg-white bottom-nav mb-10">
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -100,7 +102,7 @@
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <input class="form-item mr-sm-1 border-0" type="text" placeholder="Search">
                     <i class="fas fa-search"></i>
                 </form>
             </div>
@@ -108,21 +110,65 @@
     </header>
 
 
-
     <main>
         <!-- block with articles three columns-->
-        <div class="container-fluid">
+
+        
+        <div class="container-fluid mt-3">
             <div class="row">
                 <div class="col-3">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias facilis sunt impedit optio vero inventore aspernatur? Sequi, minima, mollitia fugiat, ipsa saepe officia quisquam dolor voluptatem porro ab laboriosam.
-                    </p>
+                    <div class="container">
+                        <div class="row">
+                            <p class="text-secondary text-uppercase">
+                                featured stories
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm- col-lg- mb-3">
+                                <figure class="figure">
+                                    <img src="../Newsweek/assets/img/newsweek-momentum-awards-2019.png" class="img-fluid" alt="oscar">
+                                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                       
+                    </div>
                 </div>
                 <div class="col-5">
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea voluptatem quia, modi inventore eum tenetur nobis deserunt, similique sit blanditiis excepturi tempore earum temporibus error harum, tempora fugit dolores adipisci?</p>
+                    <div class="container">
+                        <div class="row">
+                            <p class="text-secondary text-uppercase">
+                                top story
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm- col-lg- mb-3">
+                                <figure class="figure">
+                                    <img src="../Newsweek/assets/img/joe-biden-debate.jpg" class="img-fluid" alt="oscar">
+                                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-4">
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum doloremque atque blanditiis earum voluptate mollitia quo consectetur dolorem nobis, repudiandae placeat, et dicta modi! Deserunt tempora aut optio sint iusto!</p>
+                    <div class="container">
+                        <div class="row ml-1">
+                            <p class="text-secondary text-uppercase">
+                                opinion
+                            </p>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-3">
+                                <img src="../Newsweek/assets/img/nicole-king.png" class="rounded-circle" alt="">
+                            </div>
+                            <div class="col-9">
+                                <a href="#">Trump's Attacks on Baltimore Are Hiding an Awful Truth—and He Knows It
+                                </a>
+                                <p class="text-secondary text-uppercase">BY NICOLE KING</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
