@@ -48,12 +48,21 @@ table {
 }
 /*=====END reset styles======*/
 body{
+	position: relative;
 	padding-bottom: 400px;
 }
 
 
 header{
 	background: red;
+}
+.stk nav{
+	position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
 }
 .log a{
 	font-size: 70px;
