@@ -47,13 +47,20 @@ table {
 	border-spacing: 0;
 }
 /*=====END reset styles======*/
-
+body{
+	font-family: "Roboto Condensed",sans-serif;
+}
 header{
+	font-family: "Roboto Condensed",sans-serif;
 	background: red;
 }
-
+h1{
+	color: white;
+	font-size: 35px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
 li{
-	border-right: 1px solid grey;
+	border-left: 1px solid grey;
 	padding: 0 14px;
 	font-size: 16px;
 	color: black;
