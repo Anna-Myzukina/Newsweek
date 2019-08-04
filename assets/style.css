@@ -54,29 +54,89 @@ header{
 	font-family: "Roboto Condensed",sans-serif;
 	background: red;
 }
-h1{
-	color: white;
-	font-size: 35px;
-	font-family: 'Roboto Condensed', sans-serif;
+p{
+	margin-bottom: 0 !important;
 }
-li{
-	border-left: 1px solid grey;
-	padding: 0 14px;
-	font-size: 16px;
-	color: black;
+.header-h1{
+	color: white;
+	font-size: 65px;
+	font-family: 'Bevan', cursive;
+}
+.header-li{
+	border-left: 1px solid #80808036;
+    padding: 0 19px;
+	font-size: 18px;
+	color: black !important;
 }
 
-.left-column{
-	font-size: 24px;
-    line-height: 24px;
+.right-block a:hover,
+.text-absolut:hover{
+	text-decoration: none;
+	color: red;
+}
+.bottom-left-absolute{
+	position: relative;
+}
+.text-absolut{
+	display: block;
+	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+    color: #f72210;
+    text-transform: uppercase;
+    padding: 8px 15px 9px;
+    background-color: rgba(255,255,255,.9);
+    position: absolute;
+    bottom: 72px;
+    left: 0;
+    z-index: 1;
+}
+.middle-grey-bg-block{
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	color: #272727;
+}
+.middle-grey-bg-block:hover{
+	text-decoration: none;
+	color: #272727;
+}
+
+.grey-bg{
+	margin: 5px 0 5px 3px;
+	padding: 4px;
+	color: #272727;
+	background-color: #c2d4d7;
+	text-decoration: none;
+}
+.grey-bg:hover{
+	background-color: #272727;
+	color: #c2d4d7;
+	text-decoration: none;
+}
+.right-block a{
+	font-size: 16px;
+}
+
+.left-column,
+.right-block a{
+    line-height: 0;
 	font-weight: bold;
 	color: black;
 	text-decoration: none;
+}
+.left-column{
+	font-size: 22px;
+}
+.right-block a{
+	font-size: 16px;
 }
 .left-column:hover{
 	color: black;
 	text-decoration: underline red;
 
+}
+
+.latest-news img{
+	width: 135px;
 }
 /*====START block with four columns====*/
 
