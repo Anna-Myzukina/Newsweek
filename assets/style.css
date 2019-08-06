@@ -50,6 +50,7 @@ table {
 body{
 	font-family: "Roboto Condensed",sans-serif;
 }
+
 .bg-red{
 	background-color: #f72210;
 }
@@ -126,9 +127,6 @@ p{
 	color: black;
 	text-decoration: none;
 }
-.left-column{
-	font-size: 22px;
-}
 .right-block a,
 .middle-column a {
 	font-size: 16px;
@@ -138,7 +136,10 @@ p{
 	color: black;
 	text-decoration: underline red;
 }
-
+.left-column,
+.font-s>a{
+	font-size: 22px;
+}
 .latest-news img{
 	width: 135px;
 }
@@ -156,3 +157,19 @@ p{
 }
 
 /*====END with img gallery three columns*/
+
+/*= START three column: at the last three row===*/
+.color-red{
+	margin-left: 15px;
+	color: #f72210;
+	font-weight: bold;
+	font-size: 23px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.color-red:hover{
+	text-decoration: none;
+	color: #f72210;
+}
+/*= END three column: at the last three row===*/
+
+/*=== footer*/
