@@ -50,9 +50,11 @@ table {
 body{
 	font-family: "Roboto Condensed",sans-serif;
 }
+.bg-red{
+	background-color: #f72210;
+}
 header{
 	font-family: "Roboto Condensed",sans-serif;
-	background: red;
 }
 p{
 	margin-bottom: 0 !important;
@@ -117,6 +119,7 @@ p{
 }
 
 .left-column,
+.middle-column,
 .right-block a{
     line-height: 0;
 	font-weight: bold;
@@ -126,13 +129,14 @@ p{
 .left-column{
 	font-size: 22px;
 }
-.right-block a{
+.right-block a,
+.middle-column a {
 	font-size: 16px;
 }
-.left-column:hover{
+.left-column:hover,
+.middle-column:hover{
 	color: black;
 	text-decoration: underline red;
-
 }
 
 .latest-news img{
