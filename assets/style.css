@@ -65,18 +65,27 @@ p{
 	font-size: 65px;
 	font-family: 'Bevan', cursive;
 }
-.header-li{
-	border-left: 1px solid #80808036;
-    padding: 0 19px;
+.text-color-a{
 	font-size: 18px;
 	color: black !important;
 }
 
+.text-color-a:hover{
+	color: #f72210;
+}
 .right-block a:hover,
 .text-absolut:hover{
 	text-decoration: none;
 	color: red;
 }
+
+/*=== START section with three column===*/
+.logo-N-img{
+	width: 30px;
+	height: 30px;
+	background-color: #f72210;
+}
+
 .bottom-left-absolute{
 	position: relative;
 }
@@ -151,8 +160,8 @@ p{
 
 /*====START with img gallery three columns*/
 .img-newsweek img{
-	width: 50px;
-	min-height: 50px;
+	width: 30px;
+	min-height: 30px;
 	background: red;
 }
 
@@ -170,6 +179,40 @@ p{
 	text-decoration: none;
 	color: #f72210;
 }
+
+.img-absolute{
+	position: relative;
+	padding-bottom: 13px;
+    padding-right: 90px;
+}
+.img-positioning{
+	position: absolute;
+	top: 78px;
+    left: 140px;
+
+}
 /*= END three column: at the last three row===*/
 
 /*=== footer*/
+.footer-logo{
+	font-family: 'Bevan', cursive;
+	font-size: 40px;
+	color: #f72210;
+}
+.footer-logo:hover{
+	text-decoration: none;
+	color: #f72210;
+}
+.social-style{
+	font-size: 26px;
+}
+.social-style i:hover{
+	color: #3b5998;
+}
+.footer-bottom{
+	line-height: 2;
+	font-size: 15px;
+}
+.footer-bottom li:hover{
+ color: black;
+}

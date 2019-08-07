@@ -59,64 +59,66 @@
 <body style="height:1500px">
     <header class="header">
         <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-red d-flex justify-content-between">
-            <time datetime="2019-07-31 text-white"> Wed, Jul 31, 2019</time>
+            <a class="text-white text-decoration-none text-capitalize" href="#"> Wed, Jul 31, 2019</a>
             <h1 class="header-h1">
                 Newsweek
             </h1>
             <div>
                 <a href="#" class="nw-btn text-white p-2 text-uppercase font-weight-bold">Sign in</a>
-                <a href="#" class="nw-btn-white p-2 text-danger text-uppercase bg-white font-weight-bold">Subscribe
+                <a href="#" class="nw-btn-white p-2 text-danger text-uppercase bg-white font-weight-bold">Subscribe 
+                       
                 </a>
             </div>
         </nav>
-        <nav class="border-bottom navbar navbar-expand-sm navbar-light bg-white bottom-nav mb-10">
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul
-                    class="nav-li navbar-nav mr-auto mt-2 mt-lg-0 d-flex justify-content-between font-weight-bold text-dark">
-                    <li class="nav-item header-li">
-                        <a class="nav-link" href="#">U.S.</a>
-                    </li>
-                    <li class="nav-item header-li">
-                        <a class="nav-link" href="#">World</a>
-                    </li>
-                    <li class="nav-item header-li">
-                        <a class="nav-link" href="#">Business</a>
-                    </li>
-                    <li class="nav-item header-li">
-                        <a class="nav-link" href="#">Tech & Science</a>
-                    </li>
-                    <li class="nav-item header-li">
-                        <a class="nav-link" href="#">Culture</a>
-                    </li>
-                    <li class="nav-item header-li">
-                        <a class="nav-link" href="#">Sports</a>
-                    </li>
-                    <li class="nav-item header-li">
-                        <a class="nav-link" href="#">Health</a>
-                    </li>
-                    <li class="nav-item header-li">
-                        <a class="nav-link" href="#">Opinion</a>
-                    </li>
-                    <li class="nav-item header-li d-flex">
-                        <a class="nav-link" href="#">Vantage</a>
-                        <form class="form-inline my-2 my-lg-0 d-flex justify-content-end">
-                            <input class="w-25 form-item mr-sm-1 border-0" type="text" placeholder="Search">
-                            <i class="fas fa-search"></i>
-                        </form>
-                    </li>
-                </ul>
-
-            </div>
-        </nav>
+        
     </header>
 
 
-    <main>
+    <main class="mx-auto">
+            <nav class="border-bottom navbar navbar-expand-lg navbar-light bg-white bottom-nav mb-1 mt-lg-2 text-capitalize">
+                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul
+                            class="nav-li navbar-nav mr-auto mt-2 mt-lg-0 d-flex justify-content-between font-weight-bold">
+                            <li class="nav-item flex-grow-1">
+                                <a class="nav-link text-color-a mx-2" href="#">u.S.</a>
+                            </li>
+                            <li class="nav-item border-left flex-grow-1">
+                                <a class="nav-link text-color-a mx-2" href="#">world</a>
+                            </li>
+                            <li class="nav-item border-left flex-grow-1">
+                                <a class="nav-link text-color-a mx-2" href="#">business</a>
+                            </li>
+                            <li class="nav-item border-left flex-grow-1">
+                                <a class="nav-link text-color-a mx-2" href="#">tech & science</a>
+                            </li>
+                            <li class="nav-item border-left flex-grow-1">
+                                <a class="nav-link text-color-a mx-2" href="#">culture</a>
+                            </li>
+                            <li class="nav-item border-left flex-grow-1">
+                                <a class="nav-link text-color-a mx-2" href="#">sports</a>
+                            </li>
+                            <li class="nav-item border-left flex-grow-1">
+                                <a class="nav-link text-color-a mx-2" href="#">health</a>
+                            </li>
+                            <li class="nav-item border-left flex-grow-1">
+                                <a class="nav-link text-color-a mx-2" href="#">opinion</a>
+                            </li>
+                            <li class="nav-item d-flex border-left flex-grow-1">
+                                <a class="nav-link text-color-a" href="#">vantage</a>
+                                <form class="form-inline my-2 my-lg-0 d-flex justify-content-end">
+                                    <input class="w-25 form-item mr-sm-1 border-0" type="text" placeholder="Search">
+                                    <i class="fas fa-search"></i>
+                                </form>
+                            </li>
+                        </ul>
+        
+                    </div>
+                </nav>
         <!-- block with articles three columns-->
 
         <!--Left block FEATURED stories-->
@@ -403,6 +405,9 @@
                                 </a>
                             </div>
                         </div>
+                    </div>
+                    <!--sticky container MORE stories-->
+                    <div class="featured sticky-top">
                         <div class="row border-bottom my-3">
                             <p class="text-secondary text-uppercase font-weight-bold mb-3">
                                 more stories
@@ -526,10 +531,10 @@
                                     Extinction," with the global rate of species extinction at least "tens to hundreds
                                     of times higher" than the average over the past 10 million years.</p>
                             </div>
-
+                        </div>
                         </div>
                     </div>
-                </div>
+                
 
                 <!-- END middle block TOP STORY-->
 
@@ -539,7 +544,7 @@
                 <div class="col-sm-6 col-lg-4 mb-3">
                     <div class="container">
                         <div class="row ml-1">
-                            <p class="text-secondary text-uppercase">
+                            <p class="text-secondary text-uppercase font-weight-bold">
                                 opinion
                             </p>
                         </div>
@@ -551,7 +556,7 @@
                                 <a href="#">Trump's Attacks on Baltimore Are
                                     Hiding an Awful Truth—and He Knows It
                                 </a>
-                                <p class="text-secondary text-uppercase">by nicole king</p>
+                                <p class="text-secondary text-uppercase font-weight-bold">by nicole king</p>
                             </div>
 
                         </div>
@@ -564,7 +569,7 @@
                                 <a href="#">There's Only One Way the Crisis Here
                                     in Hong Kong Can Be Resolved
                                 </a>
-                                <p class="text-secondary text-uppercase"> By
+                                <p class="text-secondary text-uppercase font-weight-bold"> By
                                     David Zweig</p>
                             </div>
 
@@ -578,7 +583,7 @@
                                 <a href="#">I'm a U.S. Marine, and This Isn't the
                                     Freedom of Speech I Served to Protect
                                 </a>
-                                <p class="text-secondary text-uppercase">by nicole king</p>
+                                <p class="text-secondary text-uppercase font-weight-bold">by nicole king</p>
                             </div>
 
                         </div>
@@ -591,7 +596,7 @@
                                 <a href="#">Laughing at Florida Man Is Not Only
                                     OK—for Floridians, It's Essential
                                 </a>
-                                <p class="text-secondary text-uppercase">by tim dorsey</p>
+                                <p class="text-secondary text-uppercase font-weight-bold">by tim dorsey</p>
                             </div>
 
                         </div>
@@ -604,7 +609,7 @@
                                 <a href="#">It's Time Republicans Tried Helping
                                     Average Americans. That Starts With Taxing People Like Me
                                 </a>
-                                <p class="text-secondary text-uppercase">by stephen prince</p>
+                                <p class="text-secondary text-uppercase font-weight-bold">by stephen prince</p>
                             </div>
 
                         </div>
@@ -617,13 +622,13 @@
                                 <a href="#">One Country, Two Systems Is the Best
                                     System for Hong Kong, China—and America
                                 </a>
-                                <p class="text-secondary text-uppercase">by cui tiankai</p>
+                                <p class="text-secondary text-uppercase font-weight-bold">by cui tiankai</p>
                             </div>
 
                         </div>
                         <hr>
                         <div class="row ml-1">
-                            <p class="text-secondary text-uppercase">
+                            <p class="text-secondary text-uppercase font-weight-bold">
                                 latest news
                             </p>
                         </div>
@@ -725,6 +730,34 @@
                             </div>
 
                         </div>
+                        <div class="col-sm- col-lg- m-3 p-3 bg-light border">
+                                <div class="row">
+                                    <div class="col-sm- col-lg- d-flex">
+                                            <img class="m-3 logo-N-img" src="https://g.newsweek.com/www/images/logo-n1.svg" alt="logo">
+                                            
+                                    
+                                            <a class="font-weight-bold text-uppercase">
+                                                    sign up for our newsletter
+                                            </a>
+        </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm- col-lg-6">
+                                            <button type="button" class="my-3 btn btn-secondary font-weight-bold text-uppercase">
+                                                sign up
+
+                                            </button>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm- col-lg">
+                                            <a href="#" class="text-decoration-none text-dark">
+                                                    Update your preferences »
+                                            </a>
+                                    </div>
+                                </div>
+                        </div>
                         <div class="col-sm- col-lg- mb-5">
                             <div class="bottom-left-absolute">
                                 <div>
@@ -748,14 +781,15 @@
                     </div>
                 </div>
             </div>
-        </div>
+        
+        
         <!--END first block from three columns-->
 
         <!-- block with articles four columns-->
         <div class="container-fluid">
             <div class="row">
                 <div class="img-newsweek col-md-3 offset-md-3 mx-auto">
-                    <a href="#"><img src="https://g.newsweek.com/www/images/logo-n1.svg" alt="logo">
+                    <a class="text-decoration-none text-dark font-weight-bold" href="#"><img src="https://g.newsweek.com/www/images/logo-n1.svg" alt="logo">
                         EDITOR'S PICK </a>
                 </div>
             </div>
@@ -919,7 +953,7 @@
             
             <div class="row">
                 <div class="img-newsweek col-md-3 offset-md-3 mx-auto mb-5">
-                    <a href="#"><img src="https://g.newsweek.com/www/images/logo-n1.svg" alt="logo">
+                    <a class="text-decoration-none text-dark font-weight-bold" href="#"><img src="https://g.newsweek.com/www/images/logo-n1.svg" alt="logo">
                         IN THE MAGAZINE</a>
                 </div>
             </div>
@@ -998,7 +1032,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="img-newsweek col-md-3 offset-md-3 mx-auto">
-                    <a href="#"><img src="https://g.newsweek.com/www/images/logo-n1.svg" alt="logo">FEATURED
+                    <a class="text-decoration-none text-dark font-weight-bold" href="#"><img src="https://g.newsweek.com/www/images/logo-n1.svg" alt="logo">FEATURED
                         SLIDESHOWS</a>
                 </div>
             </div>
@@ -1390,8 +1424,81 @@
             </div>
             <hr>
         </div>
-        
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                    <div class="col-sm-8">
+                        <a class="text-uppercase color-red">
+                                col-sm-8
+                        </a>
+                        <div class="p-5 bg-light text-dark img-absolute">
+                            <img src="assets/img/august-2-2019-cover.jpg" alt="august cover Putin">
+                            <img class="img-positioning" src="assets/img/cover-august-tramp.jpg" alt="august cover Tramp">
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="row">
+                                col-sm-4
+                        </div>
+                    </div>
+            </div>
+        </div>
     </main>
+    <footer class="mb-20 text-black-50">
+        <div class="container d-flex flex-column justify-content-around">
+            <div class="row border-bottom">
+                <div class="col-md-9 logo-footer">
+                    <a class="footer-logo mr-3" href="#">Newsweek</a>
+                    <span class="copyright">© 2019 Newsweek</span>
+                </div>
+                
+                <div class="col-md-3 media-icons d-flex align-items-center justify-content-around social-style">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-tumblr"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </div>
+       
+        <div class="container mt-3">
+            <div class="row justify-content-between">
+                <div class="col-md-7 footer-bottom">
+                    <ul class="menu row">
+                        <li class="border-right pr-2">About Us</li>
+                        <li class="border-right px-2">Corrections</li>
+                        <li class="border-right px-2">Contact Us</li>
+                        <li class="border-right px-2">Editorial Guidelines</li>
+                        <li class="border-right px-2">Advertise</li>
+                        <li class="border-right px-2">Copyright</li>
+                        <li class="border-right px-2">Terms &amp; Conditions</li>
+                        <li class="border-right px-2">Privacy Policy</li>
+                        <li class="border-right px-2">Cookie Policy</li>
+                        <li class="border-right px-2">Terms of Sale</li>
+                        <li class="border-right px-2">Archive</li>
+                        <li class="border-right px-2">Announcements</li>
+                        <li class="pl-2">Consent preferences</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="row justify-content-between">
+                        <strong class="editions col-4 text-right p-0">Editions :</strong>
+                        <ul class="menu col-8 row justify-content-center p-0 footer-bottom" id="right">
+                            <li class="border-right px-2">U.S. Edition</li>
+                            <li class="border-right px-2">日本</li>
+                            <li class="border-right px-2">한국</li>
+                            <li class="border-right px-2">Pakistan</li>
+                            <li class="border-right px-2">Polska</li>
+                            <li class="border-right px-2">România</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
 
 </body>
 
