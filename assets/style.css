@@ -74,7 +74,8 @@ p{
 	color: #f72210;
 }
 .right-block a:hover,
-.text-absolut:hover{
+.text-absolut:hover,
+.hover-a:hover{
 	text-decoration: none;
 	color: red;
 }
