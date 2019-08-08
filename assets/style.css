@@ -87,11 +87,33 @@ p{
 	height: 30px;
 	background-color: #f72210;
 }
-
+.img-wrap{
+position: relative;
+}
+.text-absolute{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    padding: .4rem 1rem;
+    color: #f72210;
+    background: rgba(255,255,255,.9);
+}
+.color-blue{
+	color: #3581f4;
+}
+.text-absolute:hover,
+.color-blue:hover{
+	text-decoration: none;
+}
+/*
 .bottom-left-absolute{
 	position: relative;
 }
-.text-absolut{
+
+.text-absolute{
 	display: block;
 	font-weight: bold;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -104,6 +126,7 @@ p{
     left: 0;
     z-index: 1;
 }
+*/
 .middle-grey-bg-block{
 	font-family: 'Lora', serif;
 	font-size: 20px;
@@ -165,6 +188,8 @@ p{
 	width: 30px;
 	min-height: 30px;
 	background: red;
+	border: 1px solid white;
+    box-shadow: 3px 3px #f72210;
 }
 
 /*====END with img gallery three columns*/
