@@ -49,6 +49,7 @@ table {
 /*=====END reset styles======*/
 body{
 	font-family: "Roboto Condensed",sans-serif;
+	min-height: 9000px !important;
 }
 
 .bg-red{
@@ -176,9 +177,10 @@ p{
 	font-size: 23px;
 	font-family: 'Roboto Condensed', sans-serif;
 }
-.color-red:hover{
+.color-red:hover,
+.text-decoration-none:hover{
 	text-decoration: none;
-	color: #f72210;
+	color: #f72210 !important;
 }
 
 .img-absolute{
