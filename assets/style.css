@@ -195,12 +195,19 @@ position: relative;
 /*====END with img gallery three columns*/
 
 /*= START three column: at the last three row===*/
-.color-red{
+.color-red,
+.red-text{
 	margin-left: 15px;
-	color: #f72210;
+	color: #f72210 !important;
 	font-weight: bold;
 	font-size: 23px;
 	font-family: 'Roboto Condensed', sans-serif;
+}
+.red-text{
+	font-size: 18px;
+}
+.red-text:hover{
+	text-decoration: none;
 }
 .color-red:hover,
 .text-decoration-none:hover{
@@ -219,6 +226,10 @@ position: relative;
     left: 140px;
 
 }
+.bg-red{
+	background-color: #f72210 !important;
+}
+
 /*= END three column: at the last three row===*/
 
 /*=== footer*/
