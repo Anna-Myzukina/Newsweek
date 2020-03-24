@@ -36,7 +36,7 @@ To get started with the project, clone the repo on your machine
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Anna-Myzukina/Newsweek/issues).
 
 ## Show your support
 
@@ -44,9 +44,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to [Bootstrap team](https://getbootstrap.com/docs/4.4/about/team/) and Bootstrap documentation
+
 
 ## 📝 License
 
