@@ -1,5 +1,5 @@
-# PROJECT: USING BOOTSTRAP
-> In this project I built a replica of the news site Newsweek.com using the Bootstrap framework.
+# PROJECT: [USING BOOTSTRAP](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
+> In this project I built a replica of the news site Newsweek.com using the Bootstrap framework. You can find the original project specification at: https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap
 
 ### Newsweek clone
 
