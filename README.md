@@ -56,4 +56,4 @@ This project is [MIT](lic.url) licensed.
 
 👤 **Author**
 
-- * [Anna-Myzukina](https://github.com/Anna-Myzukina)
+-  [Anna-Myzukina](https://github.com/Anna-Myzukina)
