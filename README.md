@@ -12,25 +12,25 @@
 - visual studio code editor
 
 ## Features
-- [ ] To use Bootstrap CSS classes wherever it is possible 
-- [ ] Bootstrap source via BootstrapCDN ([get started](https://getbootstrap.com/docs/4.4/getting-started/introduction/))
-- [ ] Font awesome CSS source
+- To use Bootstrap CSS classes wherever it is possible 
+- Bootstrap source via BootstrapCDN ([get started](https://getbootstrap.com/docs/4.4/getting-started/introduction/))
+- Font awesome CSS source
 
 ## Original version
 
-[Newsweek](https://www.newsweek.com/)
+- [Newsweek](https://www.newsweek.com/)
 
 ## Live Version
-[Newsweek](https://anna-myzukina.github.io/Newsweek/)
+- [Newsweek](https://anna-myzukina.github.io/Newsweek/)
 
 ## Live Demo
-[Newsweek ](raw.githack.com/Anna-Myzukina/Newsweek/developer/index.html)
+- [Newsweek ](raw.githack.com/Anna-Myzukina/Newsweek/developer/index.html)
 
 
 
 ## Getting Started
 
-To get started with the project, clone the repo on your machine
+- To get started with the project, clone the repo on your machine
 
 
     git clone https://github.com/Anna-Myzukina/Newsweek.git
@@ -39,13 +39,13 @@ To get started with the project, clone the repo on your machine
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+- Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/Anna-Myzukina/Newsweek/issues).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+- Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
@@ -54,7 +54,7 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/Anna-Myzukina/Newsweek/blob/master/LICENSE.md) licensed.
+- This project is [MIT](https://github.com/Anna-Myzukina/Newsweek/blob/master/LICENSE.md) licensed.
 
 ## Authors
 
