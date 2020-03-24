@@ -11,6 +11,11 @@
 - Bootstrap 4 framework
 - visual studio code editor
 
+## Features
+- [ ] To use Bootstrap CSS classes wherever it is possible 
+- [ ] Bootstrap source via BootstrapCDN ([get started](https://getbootstrap.com/docs/4.4/getting-started/introduction/))
+- [ ] Font awesome CSS source
+
 ## Original version
 
 [Newsweek](https://www.newsweek.com/)
