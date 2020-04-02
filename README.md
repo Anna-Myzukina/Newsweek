@@ -23,9 +23,6 @@
 ## Live Version
 - [Newsweek](https://anna-myzukina.github.io/Newsweek/)
 
-## Live Demo
-- [Newsweek ](raw.githack.com/Anna-Myzukina/Newsweek/developer/index.html)
-
 
 
 ## Getting Started
