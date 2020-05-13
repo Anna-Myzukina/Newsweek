@@ -59,4 +59,7 @@ Feel free to check the [issues page](https://github.com/Anna-Myzukina/Newsweek/i
 
 👤 **Author**
 
--  [Anna-Myzukina](https://github.com/Anna-Myzukina)
+* GitHub: [Anna Muzykina](https://github.com/Anna-Myzukina)
+* LinkedIn: [Anna Muzykina](https://www.linkedin.com/in/anna-muzykina/)
+* email: anna.muzykina83@gmail.com
+
